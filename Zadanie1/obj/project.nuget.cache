@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lZHFvIq1lG94ve55xHCg+sbaFgzLYB3Js/jHChh5fHjtlvrVkEWilJMbvLD28pHRCUOlyYG5nY+kmH0s3wltdw==",
+  "dgSpecHash": "4YlZ6O3nm9YqqEuYT0dm8VocIJ4ERx7gUv1iGaGDGMNB+NoHerY2uHzb2nxl9F/1Y2uj8iBojbRPT4gV584XpQ==",
   "success": true,
-  "projectFilePath": "D:\\Projekty\\copier\\copier\\Zadanie1\\Zadanie1.csproj",
+  "projectFilePath": "D:\\Projekty\\copier-repo\\Zadanie1\\Zadanie1.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

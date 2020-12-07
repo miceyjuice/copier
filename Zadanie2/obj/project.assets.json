@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Zadanie1/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Zadanie1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Zadanie1.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Zadanie1/1.0.0": {
+      "type": "project",
+      "path": "../Zadanie1/Zadanie1.csproj",
+      "msbuildProject": "../Zadanie1/Zadanie1.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Zadanie1 >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\mySea\\.nuget\\packages\\": {}
@@ -13,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projekty\\copier-repo\\Zadanie1\\Zadanie1.csproj",
-      "projectName": "Zadanie1",
-      "projectPath": "D:\\Projekty\\copier-repo\\Zadanie1\\Zadanie1.csproj",
+      "projectUniqueName": "D:\\Projekty\\copier-repo\\Zadanie2\\Zadanie2.csproj",
+      "projectName": "Zadanie2",
+      "projectPath": "D:\\Projekty\\copier-repo\\Zadanie2\\Zadanie2.csproj",
       "packagesPath": "C:\\Users\\mySea\\.nuget\\packages\\",
-      "outputPath": "D:\\Projekty\\copier-repo\\Zadanie1\\obj\\",
+      "outputPath": "D:\\Projekty\\copier-repo\\Zadanie2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mySea\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -32,7 +51,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Projekty\\copier-repo\\Zadanie1\\Zadanie1.csproj": {
+              "projectPath": "D:\\Projekty\\copier-repo\\Zadanie1\\Zadanie1.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projekty\\copier\\copier\\Zadanie1\\Zadanie1.csproj": {}
+    "D:\\Projekty\\copier-repo\\Zadanie1\\Zadanie1.csproj": {}
   },
   "projects": {
-    "D:\\Projekty\\copier\\copier\\Zadanie1\\Zadanie1.csproj": {
+    "D:\\Projekty\\copier-repo\\Zadanie1\\Zadanie1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projekty\\copier\\copier\\Zadanie1\\Zadanie1.csproj",
+        "projectUniqueName": "D:\\Projekty\\copier-repo\\Zadanie1\\Zadanie1.csproj",
         "projectName": "Zadanie1",
-        "projectPath": "D:\\Projekty\\copier\\copier\\Zadanie1\\Zadanie1.csproj",
+        "projectPath": "D:\\Projekty\\copier-repo\\Zadanie1\\Zadanie1.csproj",
         "packagesPath": "C:\\Users\\mySea\\.nuget\\packages\\",
-        "outputPath": "D:\\Projekty\\copier\\copier\\Zadanie1\\obj\\",
+        "outputPath": "D:\\Projekty\\copier-repo\\Zadanie1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mySea\\AppData\\Roaming\\NuGet\\NuGet.Config",

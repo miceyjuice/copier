@@ -1,0 +1,12 @@
+
+*.targets
+*.props
+*.json
+*.info
+*.cache
+*.cs
+*.cs
+*.pdb
+*.dll
+*.txt
+*.xml
