@@ -102,8 +102,6 @@ namespace Zadanie2
         {
             Scan(out IDocument document);
             Print(document);
-            ScanCounter++;
-            PrintCounter++;
         }
 
         public void Send(IDocument doc, string faxNumber)

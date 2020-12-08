@@ -83,8 +83,6 @@ namespace Zadanie1
         {
             Scan(out IDocument doc);
             Print(doc);
-            ScanCounter++;
-            PrintCounter++;
         }
     }
 }
