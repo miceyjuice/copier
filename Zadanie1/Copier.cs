@@ -35,27 +35,19 @@ namespace Zadanie1
 
         public void Scan(out IDocument document, IDocument.FormatType formatType = IDocument.FormatType.JPG)
         {
-            var scanDocumentType = formatType switch
+            document = formatType switch
             {
-                IDocument.FormatType.TXT => "Text",
-                IDocument.FormatType.PDF => "PDF",
-                _ => "Image"
+                IDocument.FormatType.PDF => new PDFDocument($"PDFScan{ _scanCounter }.pdf"),
+                IDocument.FormatType.TXT => new TextDocument($"TextScan{ _scanCounter }.txt"),
+                IDocument.FormatType.JPG => new ImageDocument($"ImageScan{ _scanCounter }.jpg"),
+                _ => throw new FormatException()
             };
-
-            string name = $"{scanDocumentType}Scan{ScanCounter + 1}.{formatType.ToString().ToLower()}";
-
-            if (formatType == IDocument.FormatType.PDF)
-                document = new PDFDocument(name);
-            if (formatType == IDocument.FormatType.JPG)
-                document = new ImageDocument(name);
-            else
-                document = new TextDocument(name);
 
             switch (state)
             {
                 case IDevice.State.@on:
-                    ScanCounter++;
-                    Console.WriteLine($"{DateTime.Now} Scan: {document.GetFileName()}");
+                    _scanCounter++;
+                    Console.WriteLine($"{ DateTime.Now } Scan: { document.GetFileName() }");
                     break;
                 case IDevice.State.off:
                     break;

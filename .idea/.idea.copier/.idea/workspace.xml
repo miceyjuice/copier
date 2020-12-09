@@ -26,17 +26,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8ff51e0-c9ed-485f-849c-cbb93b284efe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Zadanie3/MultidimensionalDevice.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.copier/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.copier/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.copier/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.copier/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.copier/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.copier/riderModule.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Zadanie1/Copier.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Zadanie1/Copier.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Zadanie1/bin/Debug/netcoreapp3.1/Zadanie1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Zadanie1/bin/Debug/netcoreapp3.1/Zadanie1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Zadanie1/bin/Debug/netcoreapp3.1/Zadanie1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Zadanie1/bin/Debug/netcoreapp3.1/Zadanie1.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Zadanie1/obj/Debug/netcoreapp3.1/Zadanie1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Zadanie1/obj/Debug/netcoreapp3.1/Zadanie1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Zadanie1/obj/Debug/netcoreapp3.1/Zadanie1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Zadanie1/obj/Debug/netcoreapp3.1/Zadanie1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zadanie2/IFax.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Zadanie2/IFax.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Zadanie2/MultifunctionalDevice.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Zadanie2/MultifunctionalDevice.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zadanie2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Zadanie2/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Zadanie2/obj/Debug/netcoreapp3.1/Zadanie2.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Zadanie2/obj/Debug/netcoreapp3.1/Zadanie2.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/copier.sln" beforeDir="false" afterPath="$PROJECT_DIR$/copier.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zadanie3UnitTests/Zadanie3UnitTests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Zadanie3UnitTests/Zadanie3UnitTests.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/copier.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/copier.sln.DotSettings.user" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,20 +57,26 @@
       <list>
         <option value="$PROJECT_DIR$/Zadanie1/Documents.cs" />
         <option value="$PROJECT_DIR$/Zadanie1/Program.cs" />
-        <option value="$PROJECT_DIR$/Zadanie2/Program.cs" />
         <option value="$PROJECT_DIR$/Zadanie2/Ifax.cs" />
         <option value="$PROJECT_DIR$/Zadanie1/Devices.cs" />
-        <option value="$PROJECT_DIR$/Zadanie2/IFax.cs" />
         <option value="$PROJECT_DIR$/Zadanie1UnitTests/UnitTest1.cs" />
-        <option value="$PROJECT_DIR$/Zadanie1/Copier.cs" />
         <option value="$PROJECT_DIR$/Zadanie2UnitTests/UnitTest1.cs" />
-        <option value="$PROJECT_DIR$/Zadanie3/Program.cs" />
         <option value="$PROJECT_DIR$/Zadanie3UnitTests/Program.cs" />
         <option value="$PROJECT_DIR$/Zadanie3UnitTests/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/Zadanie1/Copier.cs" />
+        <option value="$PROJECT_DIR$/Zadanie2/IFax.cs" />
         <option value="$PROJECT_DIR$/Zadanie2/MultifunctionalDevice.cs" />
-        <option value="$PROJECT_DIR$/Zadanie3/Copier.cs" />
+        <option value="$PROJECT_DIR$/Zadanie2/Program.cs" />
+        <option value="$PROJECT_DIR$/Zadanie3/Documents.cs" />
         <option value="$PROJECT_DIR$/Zadanie3/Scanner.cs" />
         <option value="$PROJECT_DIR$/Zadanie3/Printer.cs" />
+        <option value="$PROJECT_DIR$/Zadanie3/MultifunctionalDevice.cs" />
+        <option value="$PROJECT_DIR$/Zadanie3UnitTests/UnitTestAllTogether.cs" />
+        <option value="$PROJECT_DIR$/Zadanie3/Copier.cs" />
+        <option value="$PROJECT_DIR$/Zadanie3/Devices.cs" />
+        <option value="$PROJECT_DIR$/Zadanie3/MultidimensionalDevice.cs" />
+        <option value="$PROJECT_DIR$/Zadanie3/Fax.cs" />
+        <option value="$PROJECT_DIR$/Zadanie3/Program.cs" />
       </list>
     </option>
   </component>
@@ -84,7 +93,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.Zadanie1">
+  <component name="RunManager" selected=".NET Project.Zadanie3">
     <configuration name="Zadanie1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -171,6 +180,9 @@
       <workItem from="1607346951481" duration="7166000" />
       <workItem from="1607431424024" duration="8581000" />
       <workItem from="1607453146614" duration="614000" />
+      <workItem from="1607514113378" duration="2232000" />
+      <workItem from="1607533393038" duration="7057000" />
+      <workItem from="1607545447749" duration="1652000" />
     </task>
     <servers />
   </component>
@@ -195,22 +207,22 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1876" height="374" key="GridCell.Tab.0.bottom" timestamp="1607444479267">
+    <state width="1876" height="353" key="GridCell.Tab.0.bottom" timestamp="1607546304751">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="374" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1607444479267" />
-    <state width="1876" height="374" key="GridCell.Tab.0.center" timestamp="1607444479267">
+    <state width="1876" height="353" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1607546304751" />
+    <state width="1876" height="353" key="GridCell.Tab.0.center" timestamp="1607546304751">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="374" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1607444479267" />
-    <state width="1876" height="374" key="GridCell.Tab.0.left" timestamp="1607444479267">
+    <state width="1876" height="353" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1607546304751" />
+    <state width="1876" height="353" key="GridCell.Tab.0.left" timestamp="1607546304751">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="374" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1607444479267" />
-    <state width="1876" height="374" key="GridCell.Tab.0.right" timestamp="1607444479267">
+    <state width="1876" height="353" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1607546304751" />
+    <state width="1876" height="353" key="GridCell.Tab.0.right" timestamp="1607546304751">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="374" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1607444479267" />
+    <state width="1876" height="353" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1607546304751" />
     <state width="1876" height="374" key="GridCell.Tab.1.bottom" timestamp="1607444479267">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -279,25 +291,17 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="552" y="272" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1080@0.0.1920.1080" timestamp="1607435261169" />
-    <state x="730" y="241" key="RiderGenerateDialog" timestamp="1607352256150">
+    <state x="730" y="241" key="RiderGenerateDialog" timestamp="1607539353747">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="730" y="241" key="RiderGenerateDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1607352256150" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1607352686815">
+    <state x="730" y="241" key="RiderGenerateDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1607539353747" />
+    <state x="640" y="299" key="WebReferenceSession.Dialog" timestamp="1607546448773">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1607352686815" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Zadanie1UnitTests/UnitTestCopier.cs</url>
-          <line>203</line>
-          <properties documentPath="D:\Projekty\copier-repo\Zadanie1UnitTests\UnitTest1.cs" initialLine="203" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="640" y="299" key="WebReferenceSession.Dialog/0.0.1920.1080@0.0.1920.1080" timestamp="1607546448773" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1607538936702">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1607538936702" />
   </component>
 </project>

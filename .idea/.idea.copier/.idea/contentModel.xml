@@ -72,6 +72,8 @@
         <e p="Copier.cs" t="Include" />
         <e p="Devices.cs" t="Include" />
         <e p="Documents.cs" t="Include" />
+        <e p="Fax.cs" t="Include" />
+        <e p="MultidimensionalDevice.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
